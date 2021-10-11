@@ -1,4 +1,3 @@
-image: gitpod/workspace-postgres
 tasks:
   - name: One
     env:
@@ -7,4 +6,4 @@ tasks:
         THREE: "three"
     command: echo $TEST
   - name: Two
-    command: DANGEROUSLY_DISABLE_HOST_CHECK=true npm start
+    command: echo "prompt two"
