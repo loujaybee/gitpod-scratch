@@ -1,9 +1,9 @@
 tasks:
   - name: One
     env:
-      - ONE: one
-        TWO: 2
-        THREE: "three"
+      ONE: one
+      TWO: 2
+      THREE: "three"
     command: echo $TEST
   - name: Two
     command: echo "prompt two"
