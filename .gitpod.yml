@@ -4,6 +4,8 @@ tasks:
       ONE: one
       TWO: 2
       THREE: "three"
+      FOUR: false
+      FIVE: "{ \"test\": true }"
     command: echo $TEST
   - name: Two
     command: echo "prompt two"
