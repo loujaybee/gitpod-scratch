@@ -1,0 +1,3 @@
+tasks:
+  - init: exit 1
+    command: echo "Ran"
