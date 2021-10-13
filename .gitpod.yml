@@ -1,3 +1,7 @@
 tasks:
-  - init: exit 1
-    command: echo "Ran"
+  - name: Command 2
+    init: exit 2
+    command: echo "Ran 1"
+  - name: Command 2
+    init: exit 1
+    command: echo "Ran 2"
