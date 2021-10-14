@@ -7,4 +7,6 @@ tasks:
       FOUR: false
       FIVE: "{ \"test\": true }"
       SIX: null
-    command: echo $ONE && echo $TWO && echo $THREE && echo $FOUR && echo $FIVE && echo $SIX
+      SEVEN: 
+        NESTED: string
+    command: echo $ONE && echo $TWO && echo $THREE && echo $FOUR && echo $FIVE && echo $SIX && echo $SEVEN
