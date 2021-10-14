@@ -1,0 +1,5 @@
+tasks:
+  - name: Server
+    command: go run helloworld/greeter_server/main.go
+  - name: Client
+    command: go run helloworld/greeter_client/main.go
