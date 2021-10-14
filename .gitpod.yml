@@ -1,11 +1,10 @@
 tasks:
-  - name: One
+  - name: Test data types converted from YAML in env configurations
     env:
       ONE: one
       TWO: 2
       THREE: "three"
       FOUR: false
       FIVE: "{ \"test\": true }"
-    command: echo $TEST
-  - name: Two
-    command: echo "prompt two"
+      SIX: null
+    command: echo $ONE && echo $TWO && echo $THREE && echo $FOUR && echo $FIVE && echo $SIX
