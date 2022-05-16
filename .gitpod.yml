@@ -8,3 +8,4 @@ jetbrains:
     plugins:
       - zielu.gittoolbox
       - izhangzhihao.rainbow.brackets
+      - jetbrains.mps.baseLanguage.extensions
